@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Done Beep",
+    "description": "Plays a short two-tone chime in the Web UI the moment the current conversation finishes answering a prompt."
+  }
+}

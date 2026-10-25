@@ -1,0 +1,3 @@
+- insert:
+    - id: dsh-done-beep
+      name: '@local/dsh-done-beep'

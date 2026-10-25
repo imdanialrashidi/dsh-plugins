@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "Persian Typography",
+    "description": "Bundles the Vazirmatn font and makes conversation text right-to-left aware: each paragraph and list is aligned by its own language, and inline code is isolated so mixed Persian and English reads correctly."
+  }
+}
