@@ -1,6 +1,6 @@
 {
   "meta": {
     "title": "Done Beep",
-    "description": "Plays a short two-tone chime in the Web UI the moment the current conversation finishes answering a prompt."
+    "description": "Chimes with a clear cue when a conversation finishes answering and double-pips when the assistant asks you a question, each with a card and a desktop notification while the window is in the background."
   }
 }

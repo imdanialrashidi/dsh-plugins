@@ -2,7 +2,7 @@
   "name": "@local/dsh-done-beep",
   "version": "1.0.0",
   "private": true,
-  "description": "Plays a short chime in the Web UI the moment the current conversation finishes answering.",
+  "description": "Chimes and shows an in-page plus desktop notification when a conversation finishes answering.",
   "type": "module",
   "exports": {
     ".": "./index.js",

@@ -1,0 +1,6 @@
+{
+  "meta": {
+    "title": "DeepSeek off-peak clock",
+    "description": "Always-visible clock for DeepSeek's peak/off-peak pricing in Tehran time, plus a warning that lists the model calls made during peak hours."
+  }
+}

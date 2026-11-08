@@ -1,0 +1,6 @@
+# Host half: records every streaming model call so the widget can report calls
+# that happened inside a DeepSeek peak window, and serves them over
+# GET /plugins/deepseek-offpeak/usage for the browser HUD.
+- insert:
+    - id: deepseek-offpeak
+      name: '@local/dsh-deepseek-offpeak'

@@ -1,0 +1,31 @@
+{
+  "name": "@local/dsh-deepseek-offpeak",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DeepSeek off-peak clock: Tehran-time peak windows, a live countdown in the Web UI, and a warning that lists the model calls that ran during peak hours.",
+  "type": "module",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": ["@deepseek-ai/dsh-client-ui-renderer"]
+    }
+  }
+}
